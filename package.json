@@ -1,0 +1,18 @@
+{
+  "name": "qa-takehome-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QA Engineer take-home assessment: automation + test plans + strategy README",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:web": "playwright test --project=web",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

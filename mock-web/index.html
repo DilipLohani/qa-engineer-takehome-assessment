@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Dynamic Survey Renderer (test fixture)</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 40px auto; color: #111; }
+  section { margin-bottom: 28px; }
+  .question { margin: 14px 0; padding: 10px 0; border-bottom: 1px solid #eee; }
+  .question[hidden] { display: none; }
+  label { display: block; font-weight: 600; margin-bottom: 6px; }
+  .hint { color: #666; font-size: 13px; margin-bottom: 6px; }
+  select, input[type="text"], input[type="number"] { padding: 6px 10px; font-size: 14px; }
+</style>
+</head>
+<body>
+  <h1 id="survey-title">Loading survey…</h1>
+  <div id="survey-root"></div>
+  <script src="render.js"></script>
+</body>
+</html>
